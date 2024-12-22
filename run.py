@@ -1,7 +1,9 @@
 def welcome():
+    import time
+
     """
     Add welcome page
-    Display game name and author
+    Display game name
     """
 print(" ")
 print(" ")
@@ -22,3 +24,8 @@ def main():
     welcome()
 if __name__ == "__main__":
     main()
+
+print ("Game Rules")
+print ("The objective of the game is to Connect Four tiles in the collums, they should either be connect vertically,diagonally or horizontally ") 
+print ("The collums will be numberd from 1 to 7, you will have to write the number of the collum you want to drop your piece. ")
+print("Good luck and enjoy!!!")  
