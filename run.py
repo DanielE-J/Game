@@ -7,12 +7,12 @@ def welcome():
     """
 print(" ")
 print(" ")
-print(" _____                                   _       ___ ___                                ")
+print(" _____                                   _       ___ ___                           ")
 print("/  __ \                                 | |     |   ____|                   __     ")
-print("| /  \/  ___   _ __   _ __    ___   ___ | |_    |  |____    ___            |   \ ")
-print("| |     / _ \ |  _ \ |  _ \  / _ \ / __|| __|   |   ____|  / _ \  ||    || | () \    ")
-print("| \__/\| (_) || | | || | | ||  __/| (__ | |_    |  |      | (_) | ||    || |   _|       ")
-print(" \____/ \___/ |_| |_||_| |_| \___| \___| \__|   |__|       \___/  \\___//  |   \               ")
+print("| /  \/  ___   _ __   _ __    ___   ___ | |_    |  |____    ___            |   \   ")
+print("| |     / _ \ |  _ \ |  _ \  / _ \ / __|| __|   |   ____|  / _ \  ||    || | () \  ")
+print("| \__/\| (_) || | | || | | ||  __/| (__ | |_    |  |      | (_) | ||    || |   _|  ")
+print(" \____/ \___/ |_| |_||_| |_| \___| \___| \__|   |__|       \___/  \\___//  |   \   ")
 print(" ")
 print(" ")
 print(" ")
@@ -28,8 +28,9 @@ def select_game():
     the program will first show two possible options
     u can select a game to play versus a friend or the computer
     """
-    print("Select game option:\n")
-    game_options = "1) 2 Players 2) Player vs. Computer\n"
+    print("Select game option:")
+
+    game_options = "1) 2 Players 2) Player vs. Computer"
     game_selected = input(game_options)
            
     if game_selected == "1":
@@ -38,7 +39,7 @@ def select_game():
         print("Player vs computer")
     else:
         print("Not a valid option, please try again")
-        print("Select game option:\n")
+        print("Select game option:")
         game_selected = input(game_options)
 
 
